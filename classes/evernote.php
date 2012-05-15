@@ -2,14 +2,14 @@
 
 namespace Evernote;
 
-require_once(APPPATH."vendor/evernote/lib/Thrift.php");
-require_once(APPPATH."vendor/evernote/lib/transport/TTransport.php");
-require_once(APPPATH."vendor/evernote/lib/transport/THttpClient.php");
-require_once(APPPATH."vendor/evernote/lib/protocol/TProtocol.php");
-require_once(APPPATH."vendor/evernote/lib/protocol/TBinaryProtocol.php");
-require_once(APPPATH."vendor/evernote/lib/packages/Types/Types_types.php");
-require_once(APPPATH."vendor/evernote/lib/packages/UserStore/UserStore.php");
-require_once(APPPATH."vendor/evernote/lib/packages/NoteStore/NoteStore.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/Thrift.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/transport/TTransport.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/transport/THttpClient.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/protocol/TProtocol.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/protocol/TBinaryProtocol.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/packages/Types/Types_types.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/packages/UserStore/UserStore.php");
+require_once(APPPATH."vendor/evernote-sdk-php/lib/packages/NoteStore/NoteStore.php");
 
 function getCallbackUrl()
 {
